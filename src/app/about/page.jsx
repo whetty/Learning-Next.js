@@ -1,8 +1,11 @@
 import React from 'react'
+import Loading from './loading';
 
 const page = () => {
   return (
-    <div>page</div>
+    <div className='flex justify-center'>
+      <Loading />
+    </div>
   )
 }
 
