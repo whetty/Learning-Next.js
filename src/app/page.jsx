@@ -4,7 +4,7 @@ import Button from "@/components/Button";
 
 const page = () => {
   return (
-    <div className = " p-4 flex flex-col items-center justify-center h-full overflow-hidden">
+    <div className = " p-4 flex flex-col items-center justify-center h-screen overflow-hidden">
     <div className= "text-2xl text-white bg-opacity-30  rounded-xl">
       <h1 className = "text-2xl font-cave hover:text-9xl hover:text-blue-700 text-center m-0 p-24 ">
         Whetvin.
