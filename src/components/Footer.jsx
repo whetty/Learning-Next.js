@@ -1,9 +1,12 @@
 import React from 'react'
 import Link from 'next/link';
+import Image from 'next/image';
+import code_picture from "/public/img1.png";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white">
+      <Image src={code_picture} alt="code" width={60} height={10} className="opacity-80"/>
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-7">
         <div className="mb-4 md:mb-0 px-5">
           <p className="text-sm">© 2024 Whetvin. All rights reserved.</p>

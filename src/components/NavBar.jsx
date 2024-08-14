@@ -1,10 +1,13 @@
 import React from "react";
 import Link from 'next/link';
+import Image from 'next/image';
+import code_picture from "/public/img1.png";
 
 const NavBar = () => {
     return (
       <nav className=" bg-white p-4">
-        <ul className="flex justify-center space-x-8">
+        <Image src={code_picture} alt="code" width={60} height={10} className=" opacity-80"/>
+        <ul className="flex justify-center space-x-5">
           <li>
             <Link href="/" passHref>
               <span className="text-gray-600 font-bold hover:text-lg">
