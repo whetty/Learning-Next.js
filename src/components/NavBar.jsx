@@ -5,11 +5,15 @@ import code_picture from "/public/img1.png";
 
 const NavBar = () => {
     return (
-      <nav className=" bg-white p-4">
+      <nav className="bg-white p-4">
+        <Link href="/" passHref>
+        <div className="flex justify-center">
         <Image src={code_picture} alt="code" width={60} height={10} className=" opacity-80"/>
+        </div>
+        </Link>
         <ul className="flex justify-center space-x-5">
           <li>
-            <Link href="/" passHref>
+            <Link href="/home" passHref>
               <span className="text-gray-600 font-bold hover:text-lg">
                 Home
               </span>
@@ -33,6 +37,13 @@ const NavBar = () => {
             <Link href="/cart" passHref>
               <span className="text-gray-600 font-bold hover:text-lg">
                 Cart
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/account" passHref>
+              <span className="text-gray-600 font-bold hover:text-lg">
+                Account
               </span>
             </Link>
           </li>

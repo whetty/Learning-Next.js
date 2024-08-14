@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "@/components/Button";
 
 
 const page = () => {
@@ -18,9 +17,6 @@ const page = () => {
         This session has been very useful. So far, I've learnt about the file structure in my project, using "rafce" which is similar to "!" while using HTML in VSCode, arrow functions in JavaScript, dynamic routing, brushing up on Tailwind CSS, and using fragments in JSX.
       </p>
     </div>
-    <div className="flex justify-center">
-          <Button />
-        </div>
     </div>
   )
 };
